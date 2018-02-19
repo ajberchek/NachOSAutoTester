@@ -1,0 +1,8 @@
+github:
+        oauth: githuboauthtokenfortestergoeshere
+        webhook: webhooktorepowithnachosgoeshere
+        dirWithCode: pathToDirectoryWithCodeInRepo
+nachosServer:
+        hostnameWithUser: user@serverWhichTesterRuns
+        sshKeyPath: pathToSshKeyToLoginToServer
+        testCommand: test-subm proj1-test

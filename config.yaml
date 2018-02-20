@@ -1,0 +1,11 @@
+github:
+        oauth: oauthTokenForAutomatedTester
+        dirWithCode: subDirectoryInRepoToCopyOverToTestServer
+        repoOwner: ownerOfRepoThatHasCode
+        repoName: nameOfRepoThatHasTheCode
+nachosServer:
+        hostnameWithUser: user@testServerHostname
+        sshKeyPath: pathToKeyToAccessServer
+        testCommand: commandToTestCode MakeSureItOutputsTo "test" fileInThatDirectory
+        dirToRun: directoryOnServerToRunTestCommand
+       
